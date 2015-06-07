@@ -3,6 +3,7 @@ require "thor"
 require "lipaste/config"
 require "lipaste/files"
 require "lipaste/lichess"
+require "lipaste/version"
 
 module Lipaste
   class CLI < Thor
